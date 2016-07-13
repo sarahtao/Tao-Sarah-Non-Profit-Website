@@ -1,0 +1,416 @@
+
+/*
+*::before,
+*::after {
+  box-sizing: border-box;
+ }
+*/
+
+h2{
+	font-family: Avenir;
+	font-size: 18pt;
+	color: #6F706D;
+	padding-left: 2%;
+}
+
+h3{
+	font-family: Avenir;
+	font-size: 15pt;
+	color: #6F706D;
+}
+
+p{
+	font-family: Avenir;
+	font-size: 11pt;
+}
+
+.header-banner:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#logo{
+	display: inline-block;
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin: 0;
+	padding: 1%;
+}
+
+.motto{
+	display: inline-block;
+	font-family: Baskerville;
+	font-style: italic;
+	font-size: 25pt;
+	color: #9E9E9E;
+	margin: 0;
+	padding: 1%;
+	padding-left: 2%;	
+	float: left;
+}
+
+.nav{
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+
+}
+
+ul{
+	margin: 0;
+	padding: 7px;
+	background-color: #b1d371;
+	top: 0%;
+	width: 100%;
+ 	list-style-type: none;
+
+
+ }
+
+.nav li{
+	display: inline-block;
+    float: none;
+
+}
+
+.nav li a{
+	font-family: Avenir;
+    font-size: 13pt;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 23px 23px;
+}
+
+.nav li a:hover{
+    background-color: #889C67;
+    margin: 0;
+    padding: 7px;
+    top: 0%;
+	color: #FFFFFF;
+
+}
+
+#header-quote{
+	z-index: 1000;
+	font-family: Avenir;
+	font-size: 22pt;
+	color: #FFFFFF;
+	text-align: center;
+	width: 30%;
+	padding: 0 43px;
+	top: 300px;
+}
+
+hr{
+	border: 1px solid #FFFFFF;
+}
+
+#cover{
+	background: url(/plants.png);
+	background-color: rgba(0, 0, 0, 0.5);
+    height: 522px;
+	background-size: cover;
+	height: 50%;
+	width: 100%;
+	padding: 0;
+	display: block;
+	margin-top: 0;
+}
+
+.icons{
+	text-align: center;
+	padding: 15px 0 0 0;
+	padding-left: 35%;
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#icon-circle{
+	box-sizing: border-box;
+    border: #889C67 solid 4px;
+    width: 90px;
+    height: 90px;
+    padding: 10px 4px;
+    margin-right: 10px;
+    color: #889C67;
+    text-align: center;
+
+}
+
+.article-column{
+    padding-left: 2%;
+}
+
+.caption{
+	text-align: center;
+	font-family: Avenir;
+	font-size: 10pt;
+	padding: 0;
+}
+
+	
+#img-header{
+	font-size: 20px; 
+	color: #6F706D;
+	font-weight: bold;
+	font-family: Avenir;
+	text-align: center;
+	float: right;
+	padding-right: 68px;
+
+}
+
+.img2{
+	float: right;
+	font-size: 10pt;
+	font-family: Avenir;
+	text-align: center;
+	margin: 0;
+	padding: 8px;
+	text-decoration: none;
+
+}
+
+.img2 a:hover{
+	text-decoration: none;
+	font-style: italic;
+	color: #b1d371;
+}
+
+.img2 a:link, a:visited{
+    color: #606669;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.more-support{
+	clear: both;
+	content: "";
+	display: table;
+	padding-top: 10px;
+}
+
+.infographic{
+	padding: 2.5%;
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+
+#donate{
+	float: right;
+	display: block;
+	width:40%;
+	height:40%;
+	padding: 2%; 
+}
+
+/* WHO WE ARE */
+
+#story-header{
+	width: 100%;
+	height: 50%;
+}
+
+.story{
+	text-align: center;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.mission{
+	clear: both;
+	display: inline-block;
+	content: "";
+	font-family: Avenir;
+	font-size: 11pt;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	padding: 12px;
+	text-align: center;
+	background-color: #B6B7B8;
+}
+
+#our-mission{
+	color: #FFFFFF;
+	padding-top: 3%;
+}
+
+.mission-column{
+	float: left;
+	box-sizing: border-box;
+	margin: auto;
+	width: 35%;
+	border-radius: 100%;
+	padding: 0 80px; 
+}
+
+.mission-column2{
+	float: left;
+	box-sizing: border-box;
+	margin: auto;
+	width: 65%;
+	border-radius: 100%;
+	padding: 8px 150px; 
+}
+
+.find-us{
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding-top: 5px;
+}
+
+#location{
+	height: 75%;
+	width: 75%;
+	padding-bottom: 20px;
+}
+
+.donation{
+	font-size: 12pt;
+	font-family: Avenir;
+	padding: 40px;
+	margin: 0;
+}
+
+.donation hr{
+	border: 1px solid #FFFFFF;
+}
+
+.donation p{
+	color: #6F706D;
+	text-align: center;
+}
+
+#donate-background{
+	background-color: #E8EAEB;
+	box-sizing: border-box;
+	display: block;
+	border-radius: 10%;
+	padding: 20px;
+	margin: auto;
+	width: 50%;
+}
+
+.donate-img{
+	width: 100%;
+}
+
+.options{
+	clear: both;
+	content: "";
+	display: table;
+	text-decoration: none;
+}
+
+.money-individual{
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 5px 10px;
+	padding: 7px;
+	border: 2px solid #b1d371;
+	background-color: #b1d371;
+	border-radius: 10%;
+	color: #FFFFFF;
+}
+
+.check{
+	padding: 0 70px;
+}
+
+.information{
+	padding: 3px;
+	margin: 0;
+	display: inline-block;
+}
+
+.dropbox{
+	padding: 0 5px;
+	width: 86px;
+	margin: 0;
+}
+
+/* FOOTER IN HOME PAGE */
+
+.other-links{
+	float: right;
+	width: 65%;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 90px;
+}
+
+.social-media{
+	float: left;
+	width: 35%;
+	padding-left: 96px;
+	padding-top: 5px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.social-media i{
+	padding: 0 7px;	
+	color: #FFFFFF;
+}
+
+.social-media a:link{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.social-media a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#block2{
+	box-sizing: border-box;
+	display: inline-block;
+	font-family: Avenir;
+	font-size: 10pt;
+	text-align: center;
+	padding: 0 15px;
+	margin: 0;
+	text-decoration: none;
+	float: right;
+	color: #FFFFFF;
+}
+
+.other-links a:hover{
+	text-decoration: none;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+
+footer{
+    color: #FFFFFF;
+    clear:both;
+    text-align:center;
+    font-family: Avenir;
+    font-size: 12px;
+    margin-bottom: auto;
+    padding: 5px 80px;
+    background-color: #b1d371;
+}
+
+#footer-bottom{
+	font-size: 9pt;
+	text-align: center;
+	display: block;
+	padding-top: 26px;
+}
+
+
